@@ -30,8 +30,10 @@ flutter:
 
   # To add assets to your package, add an assets section, like this:
   assets:
-    - assets/
-    - assets/images/
+    - packages/flutter_hotel_plugin/assets/images/flight.svg
+    - packages/flutter_hotel_plugin/assets/images/flight_circle.svg
+    - packages/flutter_hotel_plugin/assets/images/hotel_1.svg
+
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages

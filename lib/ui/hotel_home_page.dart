@@ -36,7 +36,7 @@ class _HotelHomeScreenState extends State<HotelHomeScreen> {
                     children: <Widget>[
                       Padding(
                           padding:  EdgeInsets.all(size_8),
-                          child: SvgPicture.asset("assets/images/hotel_1.svg",width: size_100,height: size_100,)),
+                          child: SvgPicture.asset("assets/images/hotel_1.svg",width: size_100,height: size_100,package: "flutter_hotel_plugin",)),
                       Text("Welcome to Hotel",style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: size_18),),
                     ],
                   ),
