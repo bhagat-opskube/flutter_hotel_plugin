@@ -1,6 +1,6 @@
 name: flutter_hotel_plugin
 description: A new Flutter package for Hotels.
-version: 0.0.1
+version: 0.0.2
 author: Bhagat Singh (Bhagat8533)
 homepage: https://github.com/bhagat-opskube/flutter_hotel_plugin
 
@@ -14,7 +14,7 @@ dependencies:
   #  appmetrica_sdk: ^0.0.6
   #  flutter_linkify: ^5.0.0
   #  url_launcher: ^6.0.3
-  dio: ^4.0.0-prev3
+  dio: ^3.0.10
   package_info: ^2.0.0
   flutter_svg: ^0.21.0-nullsafety.0
 

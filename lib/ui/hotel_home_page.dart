@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hotel_plugin/navigation/navigator_help.dart';
 import 'package:flutter_hotel_plugin/responsive/my_size.dart';
 
-class _HotelHomeScreen extends StatefulWidget {
-  _HotelHomeScreen({Key? key}):super(key:key);
+class HotelHomeScreen extends StatefulWidget {
+  HotelHomeScreen({Key? key}):super(key:key);
 
   @override
   _HotelHomeScreenState createState() => _HotelHomeScreenState();
 }
 
-class _HotelHomeScreenState extends State<_HotelHomeScreen> {
+class _HotelHomeScreenState extends State<HotelHomeScreen> {
 
 
   @override
