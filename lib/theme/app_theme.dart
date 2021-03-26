@@ -67,6 +67,7 @@ class AppTheme {
 
   static TextStyle headline1 = TextStyle(
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontWeight: FontWeight.bold,
     color: Colors.black45,
     fontSize: size_18,
@@ -76,6 +77,7 @@ class AppTheme {
 
   static TextStyle headline2 = TextStyle(
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontWeight: FontWeight.w800,
     color: Colors.black45,
     fontSize: size_16,
@@ -84,6 +86,7 @@ class AppTheme {
 
   static TextStyle headline3 = TextStyle(
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontWeight: FontWeight.w500,
     color: Colors.black45,
     fontSize: size_14,
@@ -93,6 +96,7 @@ class AppTheme {
   static TextStyle title = TextStyle(
     /// bold text
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontWeight: FontWeight.bold,
     fontSize: size_16,
     letterSpacing: 0.18,
@@ -100,6 +104,7 @@ class AppTheme {
   static TextStyle button_title = TextStyle(
     /// semi bold
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontWeight: FontWeight.w600,
     fontSize: size_18,
     letterSpacing: 0.18,
@@ -108,12 +113,14 @@ class AppTheme {
   static TextStyle subtitle = TextStyle(
     /// SemiBold Text
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontSize: size_14,
     fontWeight: FontWeight.w600,
   );
 
   static TextStyle body2 = TextStyle(
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontSize: size_14,
     letterSpacing: 0.2,
     fontWeight: FontWeight.w400,
@@ -121,6 +128,7 @@ class AppTheme {
 
   static TextStyle body1 = TextStyle(
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontSize: size_16,
     fontWeight: FontWeight.w500,
     letterSpacing: -0.05,
@@ -129,6 +137,7 @@ class AppTheme {
   static TextStyle caption = TextStyle(
     /// normal text
     fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
     fontSize: size_14,
     fontWeight: FontWeight.normal,
     letterSpacing: 0.2,
@@ -138,6 +147,7 @@ class AppTheme {
       /// Medium Text
       color: Colors.black45,
       fontFamily: "Segoe",
+    package: "flutter_hotel_plugin",
       fontWeight: FontWeight.w500,
       fontSize: size_14);
 

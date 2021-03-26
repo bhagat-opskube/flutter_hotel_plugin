@@ -49,14 +49,14 @@ flutter:
   fonts:
     - family: Segoe
       fonts:
-        - asset: assets/fonts/Segoe-Regular.ttf
-        - asset: assets/fonts/Segoe-Light.ttf
+        - asset: packages/flutter_hotel_plugin/assets/fonts/Segoe-Regular.ttf
+        - asset: packages/flutter_hotel_plugin/assets/fonts/Segoe-Light.ttf
           weight: 300
-        - asset: assets/fonts/Segoe-SemiBold.ttf
+        - asset: packages/flutter_hotel_plugin/assets/fonts/Segoe-SemiBold.ttf
           weight: 500
-        - asset: assets/fonts/Segoe-SemiBold.ttf
+        - asset: packages/flutter_hotel_plugin/assets/fonts/Segoe-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/Segoe-Bold.ttf
+        - asset: packages/flutter_hotel_plugin/assets/fonts/Segoe-Bold.ttf
           weight: 700
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
