@@ -42,21 +42,21 @@ class DioHttpApiClient implements HttpApiClient{
     print("Dio error ${e.type} , ${e.response} , ${e.response?.statusCode} , ${e.message} , ${e.error} , ");
     ApiException apiException=ApiException(errorMessage:"Oh! Something below is broken!",isDisplay: true,);
     switch(e.type){
-      case DioErrorType.CONNECT_TIMEOUT:
+      case DioErrorType.connectTimeout:
         apiException.errorMessage="It looks like the backend is taking too long for your request!";
         apiException.displayMessage="It looks like the backend is taking too long for your request!";
         break;
-      case DioErrorType.SEND_TIMEOUT:
-        apiException.errorMessage="It looks like the backend is taking too long for your request!";
-        apiException.displayMessage="It looks like the backend is taking too long for your request!";
-
-        break;
-      case DioErrorType.RECEIVE_TIMEOUT:
+      case DioErrorType.sendTimeout:
         apiException.errorMessage="It looks like the backend is taking too long for your request!";
         apiException.displayMessage="It looks like the backend is taking too long for your request!";
 
         break;
-      case DioErrorType.RESPONSE:
+      case DioErrorType.receiveTimeout:
+        apiException.errorMessage="It looks like the backend is taking too long for your request!";
+        apiException.displayMessage="It looks like the backend is taking too long for your request!";
+
+        break;
+      case DioErrorType.response:
         if(e.response!=null) {
           if(acceptedErrorResponse!=null && acceptedErrorResponse.contains(e.response?.statusCode))
           {
@@ -95,7 +95,7 @@ class DioHttpApiClient implements HttpApiClient{
         }
         break;
 
-      case DioErrorType.DEFAULT:
+      case DioErrorType.other:
         if (e.message.contains('SocketException')) {
           apiException.errorMessage="Bad Network! Unable to contact servers!";
           apiException.displayMessage="Bad Network! Unable to contact servers!";
